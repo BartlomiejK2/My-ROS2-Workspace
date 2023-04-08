@@ -12,8 +12,8 @@ class Turtle_Contoller_Node(Node):
     def __init__(self,name):
         super().__init__(name)
 
-        self.K_x = 1.2;
-        self.K_y = 1.2;
+        self.K_x = 2.8;
+        self.K_y = 2.8;
         self.K_t = 0.01;
         self.pose = Pose()
         self.twist = Twist()
